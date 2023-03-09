@@ -1,0 +1,24 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "deta-keepalive"
+description = "Bypass Deta's limit of 10 seconds of Micro execution."
+version = "0.1.1"
+license = "AGPL3"
+authors = ["cofob <cofob@riseup.net>"]
+readme = "README.md"
+repository = "https://github.com/cofob/deta-keepalive"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+deta = "~1.1"
+requests = "~2.27"
+
+[tool.poetry.dev-dependencies]
+black = "~22"
+
+[tool.black]
+line-length = 120
+target-version = ['py310']

@@ -14,7 +14,7 @@ repository = "https://github.com/cofob/deta-keepalive"
 [tool.poetry.dependencies]
 python = "^3.8"
 deta = "~1.1"
-requests = "~2.27"
+requests = "~2.31"
 
 [tool.poetry.dev-dependencies]
 black = "~22"

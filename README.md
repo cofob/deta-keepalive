@@ -1,3 +1,5 @@
+> **Archival notice:** This repository is archived and no longer maintained.
+
 # Bypass [Deta](https://deta.sh/)'s limit of 10 seconds of Micro execution.
 
 ⚠️ Be careful! It may be considered as an abusive service and you can be banned! THE AUTHOR DOES NOT TAKE ANY RESPONSIBILITY. ⚠️
